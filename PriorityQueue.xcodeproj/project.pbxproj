@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6A55BA11CB9B32E0025FCD5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B6A55BA01CB9B32E0025FCD5 /* main.c */; };
+		B6A55BA91CB9B3460025FCD5 /* libpriqueue.c in Sources */ = {isa = PBXBuildFile; fileRef = B6A55BA71CB9B3460025FCD5 /* libpriqueue.c */; };
+		B6A55BAB1CB9B34E0025FCD5 /* queuetest.c in Sources */ = {isa = PBXBuildFile; fileRef = B6A55BAA1CB9B34E0025FCD5 /* queuetest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		B6A55B9D1CB9B32E0025FCD5 /* PriorityQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PriorityQueue; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6A55BA01CB9B32E0025FCD5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B6A55BA71CB9B3460025FCD5 /* libpriqueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libpriqueue.c; sourceTree = "<group>"; };
+		B6A55BA81CB9B3460025FCD5 /* libpriqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libpriqueue.h; sourceTree = "<group>"; };
+		B6A55BAA1CB9B34E0025FCD5 /* queuetest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queuetest.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,9 @@
 		B6A55B941CB9B32E0025FCD5 = {
 			isa = PBXGroup;
 			children = (
-				B6A55B9F1CB9B32E0025FCD5 /* PriorityQueue */,
+				B6A55BA71CB9B3460025FCD5 /* libpriqueue.c */,
+				B6A55BA81CB9B3460025FCD5 /* libpriqueue.h */,
+				B6A55BAA1CB9B34E0025FCD5 /* queuetest.c */,
 				B6A55B9E1CB9B32E0025FCD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +57,6 @@
 				B6A55B9D1CB9B32E0025FCD5 /* PriorityQueue */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B6A55B9F1CB9B32E0025FCD5 /* PriorityQueue */ = {
-			isa = PBXGroup;
-			children = (
-				B6A55BA01CB9B32E0025FCD5 /* main.c */,
-			);
-			path = PriorityQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +115,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A55BA11CB9B32E0025FCD5 /* main.c in Sources */,
+				B6A55BA91CB9B3460025FCD5 /* libpriqueue.c in Sources */,
+				B6A55BAB1CB9B34E0025FCD5 /* queuetest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
